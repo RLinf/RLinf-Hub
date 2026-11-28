@@ -83,7 +83,7 @@ RLinf-Hub/
 
 | 作品 | 论文 / 上游仓库 | 贡献者 | RLinf 版本 | 简介 |
 |---|---|---|---|---|
-| *欢迎贡献* | 见 [Issue #1943](https://github.com/RLinf/RLinf/issues/1943) | — | — | VLA policy、世界动作模型、世界模型、推理与多模态 LLM/VLM |
+| [SmolVLA (450M)](models/smolvla/README.zh-CN.md) | [lerobot/smolvla_base](https://huggingface.co/lerobot/smolvla_base)（[LeRobot](https://github.com/huggingface/lerobot)） | [@AsakaTigar](https://github.com/AsakaTigar) | `0.3.0` | 基于 `RLINF_EXT_MODULE` 接入的上游 LeRobot SmolVLA (450M) 推理适配器 |
 
 ### 仿真器与基准（[`envs/`](envs/)）
 

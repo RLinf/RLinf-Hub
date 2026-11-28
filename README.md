@@ -83,7 +83,7 @@ Each entry is self-contained inside `<category>/<project_name>/`:
 
 | Work | Paper / Upstream | Contributor | RLinf Version | Summary |
 |---|---|---|---|---|
-| *Open for contributions* | See [Issue #1943](https://github.com/RLinf/RLinf/issues/1943) | — | — | VLA policies, World Action Models, world models, reasoning/multimodal LLMs & VLMs |
+| [SmolVLA (450M)](models/smolvla/) | [lerobot/smolvla_base](https://huggingface.co/lerobot/smolvla_base) ([LeRobot](https://github.com/huggingface/lerobot)) | [@AsakaTigar](https://github.com/AsakaTigar) | `0.3.0` | Inference-only LeRobot SmolVLA (450M) policy adapter via `RLINF_EXT_MODULE` |
 
 ### Simulators & Benchmarks ([`envs/`](envs/))
 

@@ -1,0 +1,16 @@
+# Tested with rlinf[embodied]==0.3.0 from tag v0.3
+# (commit 0505431899574619da86f551bad70b71e0ea2177; PyPI 0.3.0 sdist matches).
+# Install RLinf first.
+# LeRobot 0.7.0 needs Transformers 5.x, but RLinf 0.3.0 caps Transformers at
+# 4.57.6. datasets 5.2 needs Hugging Face Hub 1.x, conflicting with Transformers
+# 4.57. LeRobot 0.4.4 also caps torchcodec at <0.11.0.
+lerobot[smolvla]==0.4.4
+torchcodec==0.10.0
+transformers==4.57.1
+huggingface-hub==0.35.3
+datasets==4.8.0
+fsspec==2026.2.0
+numpy==2.2.6
+accelerate==1.16.0
+safetensors==0.8.0
+num2words==0.5.14
